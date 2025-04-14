@@ -1,19 +1,10 @@
 import React from 'react';
 import CategoryPage from './CategoryPage';
-
-const bottoms = [
-  {
-    id: 2,
-    title: 'Levis Jeans',
-    image: '/images/bottom1.jpg',
-    price: 25,
-    brand: 'Levis',
-    size: 'S'
-  },
-  // add more tops
-];
+import { products } from '../data/products';
 
 function BottomsPage() {
+  const bottoms = products.filter(product => product.category === 'bottoms');
+
   return <CategoryPage title="BOTTOMS" products={bottoms} />;
 }
 

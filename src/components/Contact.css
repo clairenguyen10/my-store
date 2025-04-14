@@ -20,6 +20,12 @@ form textarea {
   border: 1px solid #ccc;
 }
 
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
 .submit-button {
   border: none;          
   background-color: #541947; 
@@ -30,4 +36,6 @@ form textarea {
   cursor: pointer;
   font-family: 'Puritan', cursive;
   font-size: 16px;
+  padding-left: 40px;
+  padding-right: 40px;
 }

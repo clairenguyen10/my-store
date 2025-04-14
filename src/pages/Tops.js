@@ -1,19 +1,10 @@
 import React from 'react';
 import CategoryPage from './CategoryPage';
-
-const tops = [
-  {
-    id: 1,
-    title: 'Pink Crop Top',
-    image: '/images/top1.jpg',
-    price: 18,
-    brand: 'Brandy Melville',
-    size: 'S'
-  },
-  // add more tops
-];
+import { products } from '../data/products';
 
 function TopsPage() {
+  const tops = products.filter(product => product.category === 'tops');
+
   return <CategoryPage title="TOPS" products={tops} />;
 }
 

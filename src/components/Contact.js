@@ -23,8 +23,12 @@ function Contact() {
 
       <br></br>
 
+      <div className="button-container">
       <button type="submit" className="submit-button">Send!</button>
+      </div>
+      
       </form>
+      
 
     </div>
     </div>

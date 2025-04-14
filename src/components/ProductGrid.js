@@ -1,33 +1,27 @@
 import ProductCard from './ProductCard';
 import './ProductGrid.css';
+import { products } from '../data/products';
 
-const products = [
-  {
-    image: '', 
-    title: 'FLORAL DRESS', 
-    price: 20, 
-    brand: 'Anthropologie',
-    size: 'S',
-  },
-  // add more products here 
-
-];
 
 function ProductGrid() {
   return (
     <div className="product-section">
       <h2>NEW IN</h2>
       <div className="grid">
-        {products.map((product, index) => (
+        {products.map((product) => (
           <ProductCard
-          id={product.id}
-          title={product.title}
-          image={product.image}
-        />
+            key={product.id}
+            id={product.id}
+            title={product.title}
+            image={product.image}
+            price={product.price}
+            brand={product.brand}
+            size={product.size}
+          />
         ))}
       </div>
     </div>
-  )
+  );
 }
 
 export default ProductGrid;
