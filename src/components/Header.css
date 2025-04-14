@@ -1,0 +1,22 @@
+.header {
+  background-color: #FFCFDA;
+  padding: 20px;
+  text-align: center;
+  color: #541947;
+  font-size: 25px;
+  font-family: 'Playwrite USModern', cursive;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 50px;
+  font-size: 18px;
+  font-family: 'Playwrite USModern', cursive;
+}
+
+nav a {
+  text-decoration: none;
+  color: #541947;
+}

@@ -1,0 +1,14 @@
+.product-section {
+  padding: 40px;
+  background-color: #FFCFDA;
+  text-align: center;
+  color: #541947;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
