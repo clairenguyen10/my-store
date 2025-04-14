@@ -1,0 +1,33 @@
+.contact-wrapper {
+  display: flex;
+  justify-content: center; 
+  padding: 40px 20px;
+}
+
+.contact-page {
+  width: 100%;
+  max-width: 600px; 
+  text-align: left; 
+  color: #541947;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.submit-button {
+  border: none;          
+  background-color: #541947; 
+  color: #FFCFDA;        
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-family: 'Puritan', cursive;
+  font-size: 16px;
+}
