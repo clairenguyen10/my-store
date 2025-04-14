@@ -1,0 +1,12 @@
+.category-page {
+  padding: 40px;
+  text-align: center;
+  color: #541947;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}

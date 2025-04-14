@@ -1,22 +1,37 @@
 .header {
+  position: relative;
   background-color: #FFCFDA;
   padding: 20px;
   text-align: center;
   color: #541947;
   font-size: 25px;
-  font-family: 'Playwrite USModern', cursive;
+  font-family: 'Playwrite US Modern', cursive;
 }
 
 nav {
   display: flex;
   justify-content: center;
-  gap: 80px;
+  gap: 90px;
   margin-top: 50px;
   font-size: 18px;
-  font-family: 'Playwrite USModern', cursive;
+  font-family: 'Playwrite US Modern', cursive;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 nav a {
   text-decoration: none;
   color: #541947;
+}
+
+.contact-link {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-family: 'Playwrite US Modern', cursive;
+  color: #541947;
+  font-size: 16px;
+  text-decoration: bold;
+  padding: 30px;
+
 }

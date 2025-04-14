@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import '@fontsource/playwrite-us-modern';
+import '@fontsource/pacifico';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

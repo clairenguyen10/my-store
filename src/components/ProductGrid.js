@@ -18,8 +18,12 @@ function ProductGrid() {
     <div className="product-section">
       <h2>NEW IN</h2>
       <div className="grid">
-        {products.map((item, index) => (
-          <ProductCard key={index} {...item} />
+        {products.map((product, index) => (
+          <ProductCard
+          id={product.id}
+          title={product.title}
+          image={product.image}
+        />
         ))}
       </div>
     </div>
