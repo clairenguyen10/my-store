@@ -1,7 +1,8 @@
 # Welcome to My Closet! 
+
+This website is where I upload clothes in great condition for sale! 
+
 *This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).*
-
-
 
 ## Available Scripts
 
