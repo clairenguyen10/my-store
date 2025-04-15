@@ -28,7 +28,8 @@ function ProductDetail () {
       <img src={product.image} alt={product.title} />
       </div>
       <div className="product-info">
-        <h2>{product.price} - {product.size}</h2>
+        <h2>${product.price} - {product.title}</h2>
+        <p>{product.brand}</p>
         <p><strong>Size:</strong> {product.size}</p>
         <p><strong>Condition:</strong> {product.condition}</p>
         <p className="description">{product.description}</p>
