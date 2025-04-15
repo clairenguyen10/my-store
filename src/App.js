@@ -7,7 +7,9 @@ import Contact from './components/Contact';
 import TopsPage from './pages/Tops';
 import BottomsPage from './pages/Bottoms';
 import DressesAndSkirtsPage from './pages/DressesSkirts';
+import MyCart from './pages/MyCart';
 import { products } from './data/products';
+import { CartProvider } from './context/CartContext';
 
 
 import '@fontsource/playwrite-us-modern';
@@ -18,7 +20,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
+    <CartProvider> 
+      <Router>
       <div className="App">
         <Header />
         <Routes>
@@ -28,9 +31,11 @@ function App() {
           <Route path="/tops" element={<TopsPage />} />
           <Route path="/bottoms" element={<BottomsPage />} />
           <Route path="/dresses" element={<DressesAndSkirtsPage />} />
+          <Route path="/cart" element={<MyCart />} />
         </Routes>
       </div>
-    </Router>
+      </Router>
+    </CartProvider>
   );
 }
 

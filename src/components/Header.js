@@ -13,7 +13,7 @@ function Header() {
         <Link to="/tops">Tops</Link>
         <Link to="/bottoms">Bottoms</Link>
         <Link to="/dresses">Dresses and Skirts</Link>
-        <Link to="#">My Bag 🛍️</Link>
+        <Link to="/cart">My Bag 🛍️</Link>
       </nav>
     </div>
     
