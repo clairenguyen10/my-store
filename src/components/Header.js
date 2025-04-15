@@ -5,7 +5,7 @@ function Header() {
   return (
     <div className="header">
             
-      <Link to="/contact" className="contact-link">Contact me!</Link>
+      <Link to="/contact" className="contact-link">Contact</Link>
 
       <h1> 𐙚 claire's closet </h1>
       <nav>

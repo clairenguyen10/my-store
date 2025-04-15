@@ -6,6 +6,7 @@ function CategoryPage( { title, products} ) {
   return(
     <div className="category-page">
       <h2>{title}</h2>
+      <br></br>
       <div className="grid">
         {products.map((item, index) => (
           <ProductCard

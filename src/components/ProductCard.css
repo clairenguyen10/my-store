@@ -16,3 +16,9 @@
   color: gray;
   font-size: 0.9em;
 }
+
+.card img {
+  width: 200px;       
+  height: 250px;      
+  object-fit: cover; 
+}

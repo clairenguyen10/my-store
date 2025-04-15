@@ -5,8 +5,8 @@ function Contact() {
   return (
     <div className="contact-wrapper">
     <div className="contact-page">
-      <h2>Contact me!</h2>
-      <p>Send me an email for questions about the items (sizing, condition, etc.) shipping, or any other concerns! 💌</p>
+      <h2>CONTACT</h2>
+      <p className="contact-message">Send me an email for any questions about the items (brand, sizing, condition, etc.) shipping, meet-ups, or any other concerns! 💌</p>
 
       <br></br>
 
@@ -26,7 +26,7 @@ function Contact() {
       <div className="button-container">
       <button type="submit" className="submit-button">Send!</button>
       </div>
-      
+
       </form>
       
 

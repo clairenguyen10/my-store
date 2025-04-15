@@ -6,7 +6,8 @@ import { products } from '../data/products';
 function ProductGrid() {
   return (
     <div className="product-section">
-      <h2>NEW IN</h2>
+      <h2>NEW IN!</h2>
+      <br></br>
       <div className="grid">
         {products.map((product) => (
           <ProductCard

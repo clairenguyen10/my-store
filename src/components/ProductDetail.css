@@ -12,7 +12,7 @@
 
 .product-images img {
   width: 200px;
-  border-radius: 8px;
+  height: 300px;
 }
 
 .product-info {
