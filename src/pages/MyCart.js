@@ -1,12 +1,15 @@
 import React from 'react';
 import { useCart } from '../context/CartContext';
+import './MyCart.css';
+
 
 function MyCart() {
   const { cartItems } = useCart();
 
   return (
     <div className="my-cart">
-      <h2>My Cart</h2>
+      <h2>My Bag</h2>
+      <br></br>
       {cartItems.length === 0 ? (
         <p>Your cart is empty.</p>
       ) : (
