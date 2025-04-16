@@ -6,9 +6,14 @@ function ProductCard( { id, image, title, price, brand, size, category}) {
     <Link to={`/product/${id}`} className="card">
       <div className="card-content">
         <img src={image} alt={title} />
-        <p><strong>${price}</strong> - {title}</p>
+        <p className='title'><strong>{title} - ${price}</strong></p>
         <p className='brand'>{brand}</p>
-        <p>Size: {size}</p>
+        <div className="size-attributes">
+        <p>
+          <span className="label">SIZE </span>
+          <span className="value">{size}</span>
+        </p>
+        </div>
       </div>
     </Link>
     

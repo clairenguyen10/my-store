@@ -4,31 +4,49 @@ import './MyCart.css';
 
 
 function MyCart() {
-  const { cartItems } = useCart();
+  const { cartItems, removeFromCart } = useCart();
+
+  if (!cartItems || !Array.isArray(cartItems)) {
+    return <p>Your cart is empty!</p>;
+  }
+
+  const totalItems = cartItems.length;
+  const totalPrice = cartItems.reduce((sum, item) => sum + item.price, 0);
 
   return (
     <div className="my-cart">
-      <h2>My Bag</h2>
-      <br></br>
-      {cartItems.length === 0 ? (
-        <p>Your cart is empty.</p>
-      ) : (
-        cartItems.map((item, index) => (
-          <div key={index} className="cart-item">
-            <img src={item.image} alt={item.title} width={100}/>
-            <div>
-              <p><strong>{item.title}</strong></p>
-              <p>Price: {item.price}</p>
-              <p>Size: {item.size}</p>
+      <h2>MY BAG</h2>
+      <br />
+      <div className="cart-container">
+        <div className = "cart-attributes">
+        <div className="cart-items">
+          {cartItems.map((item) => (
+            <div key={item.id} className="cart-item">
+              <img src={item.image} alt={item.title} />
+              <div className="cart-item-info">
+                <p className="title-price">
+                  <strong>{item.title} - ${item.price}</strong>
+                </p>
+                <p className="brand">{item.brand}</p>
+                <p className="size">Size: {item.size}
+                </p>
+                <button className="remove"
+                onClick={() => removeFromCart(item.id)}>REMOVE ITEM</button>
+              </div>
             </div>
-          </div>
-            )
-            )
-          )
-        }
+          ))}
+        </div>
+        </div>
+        <div className="cart-summary">
+          <p>Items: {totalItems}</p>
+          <p>
+            TOTAL: $<strong>{totalPrice}</strong>
+          </p>
+        </div>
+      </div>
     </div>
-   )
-};
+  );
+}
 
 export default MyCart;
       

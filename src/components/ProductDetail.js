@@ -21,10 +21,18 @@ function ProductDetail () {
       <img src={product.image} alt={product.title} />
       </div>
       <div className="product-info">
-        <h2>${product.price} - {product.title}</h2>
-        <p>{product.brand}</p>
-        <p><strong>Size:</strong> {product.size}</p>
-        <p><strong>Condition:</strong> {product.condition}</p>
+        <h2 className="title">{product.title} - ${product.price} </h2>
+        <p className="brand">{product.brand}</p>
+        <div className="product-attributes">
+        <p>
+          <span className="label">SIZE</span>
+          <span className="value">{product.size}</span>
+        </p>
+        <p>
+          <span className="label">CONDITION</span>
+          <span className="value">{product.condition}</span>
+        </p>
+        </div>
         <p className="description">{product.description}</p>
         <br></br>
         <button className="add-to-cart" // add to cart and change button appearance
