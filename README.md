@@ -1,6 +1,7 @@
 # Welcome to My Closet! 
 
-This website is where I upload clothes in great condition for sale! 
+I created this website as a platform to post some of my old clothes that are looking for a new home! 
+
 
 *This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).*
 
