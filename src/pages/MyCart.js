@@ -26,12 +26,13 @@ function MyCart() {
               <div className="cart-item-info">
                 <p className="title-price">
                   <strong>{item.title} - ${item.price}</strong>
+                  <button className="remove"
+                onClick={() => removeFromCart(item.id)}>REMOVE</button>
                 </p>
                 <p className="brand">{item.brand}</p>
                 <p className="size">Size: {item.size}
                 </p>
-                <button className="remove"
-                onClick={() => removeFromCart(item.id)}>REMOVE ITEM</button>
+                
               </div>
             </div>
           ))}
