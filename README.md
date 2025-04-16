@@ -1,6 +1,6 @@
 # Welcome to My Closet! 
 
-I created this website as a platform to post some of my old clothes that are looking for a new home! 
+I created this website as a platform to post some old clothes that are looking for a new home :) 
 
 
 *This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).*
