@@ -1,3 +1,7 @@
+.my-cart {
+  padding: 30px;
+}
+
 h2 {
   color: #541947;
 }
@@ -90,4 +94,5 @@ h2 {
 
 .cart-summary p {
   font-size: 20px;
+  color: #541947;
 }
