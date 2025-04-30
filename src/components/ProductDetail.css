@@ -21,6 +21,7 @@
 
 .product-info .title {
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .product-info .brand {
@@ -52,11 +53,11 @@
 .product-attributes .value {
   font-size: 1rem;
   font-weight: 600;
-  color: #541947;
+  color: #FF98C1;
 }
 
 .add-to-cart {
-  background-color: #ffa1b7;
+  background-color: #FF98C1;
   color: white;
   padding: 10px 20px;
   border: none;

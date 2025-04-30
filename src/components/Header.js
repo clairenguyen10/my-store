@@ -7,13 +7,14 @@ function Header() {
             
       <Link to="/contact" className="contact-link">Contact</Link>
 
-      <h1> 𐙚 claire's closet </h1>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/tops">Tops</Link>
-        <Link to="/bottoms">Bottoms</Link>
-        <Link to="/dresses">Dresses and Skirts</Link>
-        <Link to="/cart">My Bag 🛍️</Link>
+      <h1><i></i> 𐙚 claire's closet </h1>
+      
+      <nav className="nav-bar">
+        <Link to="/"><strong>HOME</strong></Link>
+        <Link to="/tops"><strong>TOPS</strong></Link>
+        <Link to="/bottoms"><strong>BOTTOMS</strong></Link>
+        <Link to="/dresses"><strong>DRESSES AND SKIRTS</strong></Link>
+        <Link to="/cart"><strong>MY BAG 🛍️</strong></Link>
       </nav>
     </div>
     

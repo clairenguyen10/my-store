@@ -1,7 +1,11 @@
 .category-page {
   padding: 30px;
   text-align: center;
-  color: #541947;
+  color: #FF98C1;
+}
+
+.category-page {
+  background-color: #fff2f6;
 }
 
 .grid {

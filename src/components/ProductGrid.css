@@ -1,18 +1,18 @@
 .product-section {
   padding: 40px;
-  background-color: #ffdce4;
   text-align: center;
-  color: #541947;
+  color: #ff7aaf;
 }
 
 .grid {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  flex-wrap: wrap;
-  margin-top: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 h2 {
   font-size: 30px;
+  color: #FF98C1;
 }

@@ -1,27 +1,39 @@
 .header {
   position: relative;
-  background-color: #ffdce4;
-  padding: 20px;
+  background-color: white;
   text-align: center;
-  color: #541947;
+  color: #FF98C1;
   font-size: 20px;
   font-family: 'Playwrite US Modern', cursive;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+
+h1 {
+  padding: 20px;
 }
 
 nav {
   display: flex;
   justify-content: center;
   gap: 90px;
-  margin-top: 50px;
-  font-size: 18px;
-  font-family: 'Playwrite US Modern', cursive;
-  padding-left: 30px;
-  padding-right: 30px;
+  font-size: 12px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding: 15px;
+  background-color: #FF98C1;
+  box-sizing: border-box;
 }
 
 nav a {
   text-decoration: none;
-  color: #541947;
+  color: white;
+}
+
+nav a:hover {
+  color: #ffe8ef; 
 }
 
 .contact-link {
@@ -29,11 +41,13 @@ nav a {
   top: 10px;
   right: 40px;
   font-family: 'Puritan';
-  color: #541947;
+  color: #FF98C1;
   font-size: 16px;
   text-decoration: bold;
   padding: 30px;
 }
+
+
 
 .contact-page h2 {
   text-align: center;
@@ -47,3 +61,16 @@ nav a {
   font-size: 18px;
   text-decoration: none;
 }
+
+p {
+  font-family: 'Puritan';
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 18px;
+}
+
+.header {
+  border-top: 5px solid white;
+}
+
