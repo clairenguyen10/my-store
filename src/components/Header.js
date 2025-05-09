@@ -5,9 +5,9 @@ function Header() {
   return (
     <div className="header">
             
-      <Link to="/contact" className="contact-link">Contact</Link>
+      <Link to="/contact" className="contact-link"><strong>Contact</strong></Link>
 
-      <h1><i></i> 𐙚 claire's closet </h1>
+      <h1><i>claire's closet</i>   𝜗𝜚 </h1>
       
       <nav className="nav-bar">
         <Link to="/"><strong>HOME</strong></Link>

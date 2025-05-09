@@ -42,3 +42,8 @@ form textarea {
 .contact-page contact-message {
   text-align: center;
 }
+
+.contact-labels {
+  text-align: left;
+  padding: 0px;
+}
